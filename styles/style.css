@@ -1,0 +1,33 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Rubik', sans-serif;
+  color: var(--colormenu);
+  
+}
+.logoimage{
+    width: 155px;
+}
+.navmenu{
+    
+    
+
+}
+.navitem1 {
+    flex-direction: row;
+    text-transform: capitalize;
+}
+.mainbody {
+  height: 88.8vh; /*ver*/
+  color: var(--colorfont);
+  font-family: 'Rubik', sans-serif;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--colorbackground);
+  overflow-x: auto;
+  text-align: center;
+}
