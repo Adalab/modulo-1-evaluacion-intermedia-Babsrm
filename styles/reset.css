@@ -1,0 +1,8 @@
+* {
+    padding: 0;
+    margin: 0;}
+    :root{
+        --colormenu: #4a4a4a;
+        --colorbackground: #3CDBC0;
+        --colorfont: #FFFFFF;
+    }
