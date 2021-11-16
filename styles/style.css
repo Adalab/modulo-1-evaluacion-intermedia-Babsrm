@@ -4,7 +4,9 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  font-family: var(--fontall);
+  position: fixed;
+  margin-top: 0;
+  background-color: white;
 }
 .logoimage {
   width: 155px;
@@ -23,12 +25,12 @@
   list-style-type: none;
 }
 body {
-  overflow-x: hidden;
+  font-family: var(--fontall);
 }
 .mainbody {
   height: 100vh;
   color: var(--colorfont);
-  font-family: var(--fontall);
+  text-transform: capitalize;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -49,6 +51,6 @@ body {
   }
 
   .titlemain {
-    display: contents;
+    font-size: 40px;
   }
 }
